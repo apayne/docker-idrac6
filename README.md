@@ -1,16 +1,6 @@
-# iDRAC 6 dockerized
-
-![Web interface](https://i.imgur.com/Au9DPmg.png)
-*Web interface*
-
-![Guacamole](https://i.imgur.com/8IWAATS.png)
-*Directly connected to VNC via Guacamole*
-
 ## About
 
 Allows access to the iDRAC 6 console without installing Java or messing with Java Web Start. Java is only run inside of the container and access is provided via web interface or directly with VNC.
-
-Container is based on [baseimage-gui](https://github.com/jlesage/docker-baseimage-gui) by [jlesage](https://github.com/jlesage)
 
 # Usage
 
